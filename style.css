@@ -1,0 +1,62 @@
+.centered {
+  position: fixed; /* or absolute */
+  top: 30%;
+}
+
+body {
+     background: #F0F0F0;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.testimonials {
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.testimonials .carousel-arrow {
+    top: -65px;
+    position: relative;
+}
+
+.testimonials .carousel-control.left {
+    right: 27px;
+    left: auto;
+}
+
+.testimonials .carousel-control {
+    opacity: 1;
+    width: 100%;
+    text-align: right;
+    text-shadow: none;
+    position: absolute;
+    filter: Alpha(opacity = 100);
+}
+
+.testimonials .carousel-control.right {
+    right: 0px;
+}
+
+.testimonials.testimonials-v1 .item p {
+    position: relative;
+}
+
+.testimonials .testimonial-info {
+    font-size: 1.2em;
+}
+
+.testimonials .testimonial-info {
+    color: #18ba9b;
+}
+
+.testimonials .carousel-arrow i {
+    color: #777;
+    padding: 2px;
+    min-width: 25px;
+    font-size: 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
